@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/marvindanig/css-architecture-2024-a-primer-on-intrinsic-web-design/master/assets/images/new-web.jpg);
+    background-size: 200% 100%;
+    background-position: center right;
+}
+
+h1 {
+    font-size: 10dvmin;
+    color: darkviolet;
+    text-align: left
+}

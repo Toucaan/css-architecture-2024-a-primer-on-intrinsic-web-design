@@ -1,0 +1,10 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/marvindanig/css-architecture-2024-a-primer-on-intrinsic-web-design/master/assets/images/issues.jpg);
+    background-size: 200% 100%;
+    background-position: center left;
+}
+
+h1 {
+    color: violet;
+    line-height: 1.5;
+}

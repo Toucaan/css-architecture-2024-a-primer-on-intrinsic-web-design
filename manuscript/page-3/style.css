@@ -1,0 +1,46 @@
+.leaf {
+	background-color: rgb(238 54 54);
+	background-image: linear-gradient(0deg, rgb(238 54 54) 0%, rgb(158 59 108) 100%);
+  color: white;
+}
+
+h1.brandname {
+	font-size: 100%;
+	font-family: 'Pacifico', cursive; 
+  font-weight: 300;
+}
+
+p {
+	color: white;
+}
+
+a h1 { 
+	color: #f9b305;  
+} 
+
+a:focus,
+a:active,
+a:hover h1{
+  outline: 0 none;
+  color: #fff;
+}
+
+.employer {
+	display: block;
+	position: absolute;
+  bottom: calc(3 * var(--vmax));
+  right: calc(4 * var(--vmax));
+}
+
+.profile {
+ 	margin: calc(6 * var(--vmax));
+	width: 30vmin;
+}
+
+.anagram {
+	width: 10vmin;
+}
+
+.brandname {
+	width: 20vmin;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "CSS Archtitecture 2024",
+  "layout": "text",
+  "has_page_numbers": false,
+  "punchline": "A Primer on Intrinsic Web Design",
+  "table_of_contents": "",
+  "author_detail": "",
+  "colophon": "",
+  "summary": "",
+  "language": "",
+  "status": "draft",
+  "asset_url": "",
+  "book_url": "https://bubblin.io/book/css-archtitecture-2024-by-marvin-danig",
+  "mode": {
+    "HTML": "html",
+    "CSS": "css",
+    "JS": "js",
+    "HEAD": "html"
+  },
+  "book_id": 1444
+}

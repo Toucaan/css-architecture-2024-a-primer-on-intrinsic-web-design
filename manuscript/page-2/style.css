@@ -1,0 +1,20 @@
+.leaf {
+    background-color: rgb(238 54 54);
+    background-image: linear-gradient(0deg, rgb(238 54 54) 0%, rgb(158 59 108) 100%);
+    color: white;
+}
+
+.profile {
+    margin-top: calc(6 * var(--vmax));
+    width: 100%;
+    height: auto;
+}
+
+.circle {
+    width: 30dvmin;
+    border: solid white 1vmin;
+    border-radius: 50%;
+    box-shadow: inset 5dvmin 1dvmin 1dvmin gold;
+    clip-path: circle();
+
+}

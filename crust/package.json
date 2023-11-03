@@ -1,0 +1,46 @@
+{
+  "name": " <projectName> ",
+  "version": "0.0.11",
+  "description": "Superbook <projectName> by <username>",
+  "keywords": [
+    "superbook",
+    "bookiza"
+  ],
+  "author": " <username> <your@email.com> <(https://bubblin.io/<username>)>",
+  "license": "BOL",
+  "homepage": "https://bubblin.io/<username>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github/project/url/here"
+  },
+  "scripts": {
+    "postinstall": "node ./crust/scripts/ready.mjs"
+  },
+  "type": "module",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "book-length": "^1.2.1",
+    "browser-sync": "^2.29.1",
+    "chalk": "^5.2.0",
+    "del": "^7.0.0",
+    "delayed": "^2.0.0",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-haml": "^1.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-less": "^5.0.0",
+    "gulp-markdown": "^7.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-stylus": "^3.0.0",
+    "js-cookie": "^3.0.5",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

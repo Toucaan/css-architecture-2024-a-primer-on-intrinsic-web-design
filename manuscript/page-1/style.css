@@ -1,0 +1,70 @@
+/* Page 1: Default cover face. */
+.face {
+  width: calc(100 * var(--vmin));
+  height: calc(100 * var(--vmax));
+  border: calc(2 * var(--vmin)) solid #262626;
+  background-color: #474747;
+  border-radius: calc(0.3 * var(--vmin)) calc(1.2 * var(--vmin)) calc(1.2 * var(--vmin)) calc(0.3 * var(--vmin));
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #585656 inset;
+  position: relative;
+}
+.face:before {
+  position: absolute;
+  top: 0;
+  left: calc(5 * var(--vmin));
+  height: 100%;
+  width: calc(1 * var(--vmin));
+  border-left: calc(0.5 * var(--vmin)) solid #585656;
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #262626 inset;
+  content: " ";
+  display: block;
+}
+.title {
+  background-color: #eee;
+  width: 100%;
+  border-top: calc(2 * var(--vmin)) solid #262626;
+  border-bottom: calc(2 * var(--vmin)) solid #262626;
+  line-height: 1.25;
+  height: calc(40 * var(--vmax));
+  top: calc(43 * var(--vmax));
+  position: relative;
+}
+.title p,
+.title h1,
+.title h2 {
+  color: black;
+}
+.title:before {
+  position: absolute;
+  top: 0;
+  left: calc(5 * var(--vmin));
+  height: 100%;
+  width: var(--vmin);
+  background: #aaa;
+  border-left: calc(0.5 * var(--vmin)) solid #585656;
+  box-shadow: calc(-0.5 * var(--vmin)) calc(0.5 * var(--vmin)) 0 #262626 inset;
+  content: " ";
+  display: block;
+}
+.text-safe-region {
+  left: calc(2.5 * var(--vmin));
+  width: calc(91 * var(--vmin));
+  height: auto;
+  position: relative;
+}
+.text-safe-region h1 {
+  font-size: calc(91 * var(--vmin) / 15);
+}
+.text-safe-region h2 {
+  font-size: calc(91 * var(--vmin) / 20);
+}
+
+.small {
+	font-size: 60%;
+}
+
+.by {
+	font-size: 75%;
+	font-family: 'Pacifico', cursive;
+  margin: 5dvmin auto;
+}

@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/marvindanig/css-architecture-2024-a-primer-on-intrinsic-web-design/master/assets/images/rwd.jpg);
+    background-size: 200% 100%;
+    background-position: center left;
+}
+
+.blue {
+    font-size: 150%;
+    line-height: 1.25;
+    color: darkviolet;
+}

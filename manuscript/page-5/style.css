@@ -1,0 +1,17 @@
+.leaf {
+  text-align: center;
+  background-color: hsla(230, 40%, 50%, 1);
+  color: white;
+}
+
+.inner {
+	height: auto;
+}
+
+h3 {
+  margin-top: 10dvmin;
+  font-size: 10dvmin;
+  text-wrap: balance;
+  font-family: 'Pacifico', cursive;
+  line-height: 1.30;
+}
