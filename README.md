@@ -1,5 +1,13 @@
 # My talk on Modern CSS Architecture, 2024 and forward.
 
+The presentation is available here → https://bubblin.io/book/modern-css-architecture-2024-by-marvin-danig/1
+
+🍭 Feedback from the audience.
+
+Received the following [PDF]() from the organizers.
+
+
+## Introduction
 CSS has been under rapid development for the past few years. With new powerful features being added every week, it is only a matter of time before our old methods would become completely obsolete and unique design patterns would emerge and take over to replace the old. 
 
 Let's prepare for that moment. Now.
