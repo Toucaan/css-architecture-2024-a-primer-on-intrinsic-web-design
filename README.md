@@ -4,7 +4,7 @@ The presentation is available here → https://bubblin.io/book/modern-css-archit
 
 🍭 Feedback from the audience.
 
-Received the following [PDF]() from the organizers.
+Received the following [PDF](https://github.com/Toucaan/css-architecture-2024-a-primer-on-intrinsic-web-design/blob/master/Code_Coffee_November_4_2023.pdf) from the organizers.
 
 
 ## Introduction
